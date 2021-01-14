@@ -1,7 +1,10 @@
+name: action_tester
+
 on: [push]
 
 jobs:
   custom_test:
+    timeout-minutes: 5
     runs-on: ubuntu-latest
     name: We test it locally with act
     steps:
