@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 
-node /index.js $@
+node --inspect-brk=0.0.0.0:9229  /app/index.js $@

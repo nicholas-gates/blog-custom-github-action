@@ -6,6 +6,7 @@ console.log("😜😜😜 args = ", process.argv);
 
 const pokemon_name = "Pikachu";
 console.log(`::set-output name=pokemon_name::${pokemon_name}`);
+debugger;
 
 try {
   // `who-to-greet` input defined in action metadata file
